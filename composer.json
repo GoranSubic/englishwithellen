@@ -1,0 +1,26 @@
+{
+    "name": "gsubic/wp-ellen",
+    "description": "A WordPress project managed with Composer and WPackagist.",
+    "type": "project",
+    "license": "GPL-2.0-or-later",
+    "require": {
+      "php": ">=7",
+      "composer/installers": "^2.0",
+      "wpackagist-plugin/akismet": "^4.1",
+      "wpackagist-plugin/elementor": "^3.0",
+      "wpackagist-theme/hello-biz": "^1.0"
+    },
+    "extra": {
+      "installer-paths": {
+        "wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
+        "wp-content/themes/{$name}/": ["type:wordpress-theme"]
+      }
+    },
+    "repositories": [
+      {
+        "type": "composer",
+        "url": "https://wpackagist.org"
+      }
+    ]
+  }
+  
