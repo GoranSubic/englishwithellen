@@ -22,9 +22,12 @@ wp-config.php
 
 # Example themes
 /wp-content/themes/twenty*/
+/wp-content/themes/hello-biz/
 
 # Example plugin
 /wp-content/plugins/hello.php
+/wp-content/plugins/akismet/
+/wp-content/plugins/elementor/
 
 # Uploads
 /wp-content/uploads/
@@ -46,3 +49,5 @@ wp-config.php
 # Note: If you wish to whitelist themes,
 # uncomment the next line
 #/wp-content/themes
+
+/vendor/
