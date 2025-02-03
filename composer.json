@@ -6,8 +6,10 @@
     "require": {
       "php": ">=7",
       "composer/installers": "^2.0",
-      "wpackagist-plugin/akismet": "^4.1",
+      "wpackagist-plugin/akismet": "^5.3",
       "wpackagist-plugin/elementor": "^3.0",
+      "wpackagist-plugin/hello-plus": "^1.1",
+      "wpackagist-plugin/image-optimization": "^1.6",
       "wpackagist-theme/hello-biz": "^1.0"
     },
     "extra": {
