@@ -10,3 +10,16 @@
 */
 
 /* You can add your custom CSS below this line */
+
+.ellen-header .ehp-header__button-toggle {
+    width: 40px;
+    justify-self: flex-end;
+}
+
+.ellen-header .ehp-header__toggle-icon.ehp-header__toggle-icon--open {
+    margin: auto;
+}
+
+.ellen-header .eicon-close.ehp-header__toggle-icon.ehp-header__toggle-icon--close {
+    margin: auto;
+}
