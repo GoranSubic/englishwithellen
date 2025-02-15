@@ -35,9 +35,13 @@ wp-config.php
 /wp-content/plugins/templately/
 /wp-content/plugins/wp-mail-smtp/
 /wp-content/plugins/wpforms-lite/
+/wp-content/plugins/litespeed-cache/
 
 # Uploads
 /wp-content/uploads/
+
+# hide the WordPress version from the site’s HTML source code and headers
+/wp-content/plugins/sh_wp_version_hider.php
 
 # Log files
 *.log

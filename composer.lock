@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8aa002e15b013390c0cab78b8f7c9ee0",
+    "content-hash": "737b0976bc029723ac3ff30863b67b0c",
     "packages": [
         {
             "name": "composer/installers",
@@ -259,6 +259,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/image-optimization/"
+        },
+        {
+            "name": "wpackagist-plugin/litespeed-cache",
+            "version": "6.5.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/litespeed-cache/",
+                "reference": "tags/6.5.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/litespeed-cache.6.5.4.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/litespeed-cache/"
         },
         {
             "name": "wpackagist-plugin/templately",
