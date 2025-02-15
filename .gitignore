@@ -30,6 +30,11 @@ wp-config.php
 /wp-content/plugins/elementor/
 /wp-content/plugins/hello-plus/
 /wp-content/plugins/image-optimization/
+/wp-content/plugins/adminimize/
+/wp-content/plugins/essential-addons-for-elementor-lite/
+/wp-content/plugins/templately/
+/wp-content/plugins/wp-mail-smtp/
+/wp-content/plugins/wpforms-lite/
 
 # Uploads
 /wp-content/uploads/

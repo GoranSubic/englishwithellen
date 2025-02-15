@@ -10,7 +10,12 @@
       "wpackagist-plugin/elementor": "^3.0",
       "wpackagist-plugin/hello-plus": "^1.1",
       "wpackagist-plugin/image-optimization": "^1.6",
-      "wpackagist-theme/hello-biz": "^1.0"
+      "wpackagist-theme/hello-biz": "^1.0",
+      "wpackagist-plugin/adminimize": "^1.11",
+      "wpackagist-plugin/essential-addons-for-elementor-lite": "^6.1",
+      "wpackagist-plugin/templately": "^3.2",
+      "wpackagist-plugin/wp-mail-smtp": "^4.3",
+      "wpackagist-plugin/wpforms-lite": "1.9.3.2"
     },
     "extra": {
       "installer-paths": {
@@ -25,4 +30,3 @@
       }
     ]
   }
-  
