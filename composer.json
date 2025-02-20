@@ -15,7 +15,7 @@
       "wpackagist-plugin/essential-addons-for-elementor-lite": "^6.1",
       "wpackagist-plugin/templately": "^3.2",
       "wpackagist-plugin/litespeed-cache": "^6.5",
-        "wpackagist-plugin/leadin": "^11.1"
+      "wpackagist-plugin/leadin": "^11.1"
     },
     "extra": {
       "installer-paths": {
@@ -28,5 +28,10 @@
         "type": "composer",
         "url": "https://wpackagist.org"
       }
-    ]
+    ],
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
   }
