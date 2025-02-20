@@ -23,3 +23,14 @@
 .ellen-header .eicon-close.ehp-header__toggle-icon.ehp-header__toggle-icon--close {
     margin: auto;
 }
+
+.ellen-header li button {
+    box-shadow: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .ehp-header[data-responsive-breakpoint=tablet-portrait] .ehp-header__dropdown {
+        align-items: baseline !important;
+        left: 25% !important;
+    }
+}
