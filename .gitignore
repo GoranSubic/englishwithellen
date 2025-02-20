@@ -33,9 +33,8 @@ wp-config.php
 /wp-content/plugins/adminimize/
 /wp-content/plugins/essential-addons-for-elementor-lite/
 /wp-content/plugins/templately/
-/wp-content/plugins/wp-mail-smtp/
-/wp-content/plugins/wpforms-lite/
 /wp-content/plugins/litespeed-cache/
+/wp-content/plugins/leadin/
 
 # Uploads
 /wp-content/uploads/

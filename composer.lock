@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "737b0976bc029723ac3ff30863b67b0c",
+    "content-hash": "be82dfdd9ccc289d9aff65be1a49ea50",
     "packages": [
         {
             "name": "composer/installers",
@@ -261,6 +261,24 @@
             "homepage": "https://wordpress.org/plugins/image-optimization/"
         },
         {
+            "name": "wpackagist-plugin/leadin",
+            "version": "11.1.82",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/leadin/",
+                "reference": "tags/11.1.82"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/leadin.11.1.82.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/leadin/"
+        },
+        {
             "name": "wpackagist-plugin/litespeed-cache",
             "version": "6.5.4",
             "source": {
@@ -295,42 +313,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/templately/"
-        },
-        {
-            "name": "wpackagist-plugin/wp-mail-smtp",
-            "version": "4.3.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wp-mail-smtp/",
-                "reference": "tags/4.3.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-mail-smtp.4.3.0.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-mail-smtp/"
-        },
-        {
-            "name": "wpackagist-plugin/wpforms-lite",
-            "version": "1.9.3.2",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wpforms-lite/",
-                "reference": "tags/1.9.3.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wpforms-lite.1.9.3.2.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wpforms-lite/"
         },
         {
             "name": "wpackagist-theme/hello-biz",

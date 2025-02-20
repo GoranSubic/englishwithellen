@@ -5,7 +5,7 @@ services:
   db:
     image: mysql:5.7
     volumes:
-      - db_data:/var/lib/mysql
+      - ./db_data:/db_data
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: secret
@@ -26,6 +26,9 @@ services:
       - "3000:80"
     restart: always
     environment:
+      # debug mode
+      # WORDPRESS_DEBUG: 1
+
       WORDPRESS_DB_HOST: db:3306
       WORDPRESS_DB_USER: ellen
       WORDPRESS_DB_PASSWORD: secret

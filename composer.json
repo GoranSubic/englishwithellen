@@ -14,9 +14,8 @@
       "wpackagist-plugin/adminimize": "^1.11",
       "wpackagist-plugin/essential-addons-for-elementor-lite": "^6.1",
       "wpackagist-plugin/templately": "^3.2",
-      "wpackagist-plugin/wp-mail-smtp": "^4.3",
-      "wpackagist-plugin/wpforms-lite": "1.9.3.2",
-      "wpackagist-plugin/litespeed-cache": "^6.5"
+      "wpackagist-plugin/litespeed-cache": "^6.5",
+        "wpackagist-plugin/leadin": "^11.1"
     },
     "extra": {
       "installer-paths": {
