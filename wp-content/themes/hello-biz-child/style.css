@@ -11,6 +11,7 @@
 
 /* You can add your custom CSS below this line */
 
+/* Hamburger button */
 .ellen-header .ehp-header__button-toggle {
     width: 40px;
     justify-self: flex-end;
@@ -28,9 +29,24 @@
     box-shadow: none;
 }
 
-@media screen and (max-width: 1024px) {
+/* Submenu align */
+@media only screen and (max-width: 300px) {
     .ehp-header[data-responsive-breakpoint=tablet-portrait] .ehp-header__dropdown {
         align-items: baseline !important;
-        left: 25% !important;
+        left: 30% !important;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+    .ehp-header[data-responsive-breakpoint=tablet-portrait] .ehp-header__dropdown {
+        align-items: baseline !important;
+        left: 40% !important;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+    .ehp-header[data-responsive-breakpoint=tablet-portrait] .ehp-header__dropdown {
+        align-items: baseline !important;
+        left: 50% !important;
     }
 }
