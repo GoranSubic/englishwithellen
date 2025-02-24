@@ -27,9 +27,25 @@ function hello_biz_child_enqueue_styles() {
     // Enqueue Child Theme CSS.
     wp_enqueue_style(
         'hello-biz-child-style',
-        get_stylesheet_directory_uri() . '/style.css',
+        get_stylesheet_directory_uri() . '/style/style.css',
         array('hello-biz-style'),
         wp_get_theme()->get('Version')
     );
 }
-add_action( 'wp_enqueue_scripts', 'hello_biz_child_enqueue_styles' );
+add_action(
+    'wp_enqueue_scripts', 'hello_biz_child_enqueue_styles'
+);
+
+function hello_biz_child_enqueue_scripts()
+{
+    wp_enqueue_script(
+        'hello-biz-js',
+        get_theme_file_uri('/js/script.js'),
+        array( 'jquery' ),
+        '',
+        true
+    );
+}
+add_action(
+    'wp_enqueue_scripts', 'hello_biz_child_enqueue_scripts'
+);
