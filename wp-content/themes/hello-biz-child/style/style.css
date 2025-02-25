@@ -50,3 +50,101 @@
         left: 50% !important;
     }
 }
+
+
+/* Comments */
+section#comments {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+
+    width: 60%;
+    justify-self: center;
+}
+
+section#comments a {
+    color: #FF8125;
+}
+
+section#comments a:hover {
+    color: #ffb981;
+}
+
+section#comments #reply-title {
+    display: flex;
+    flex-direction: column;
+}
+
+section#comments #cancel-comment-reply-link {
+    /* color: #FF8125; */
+    padding-left: 10px;
+    font-size: 1rem;
+}
+
+@media only screen and (max-width: 800px) {
+    section#comments h2 {
+        font-size: 1.5rem;
+    }
+}
+
+.elementor-kit-19 section#comments input:not([type="button"]):not([type="submit"]),
+.elementor-kit-19 section#comments textarea,
+.elementor-kit-19 section#comments .elementor-field-textual {
+    line-height: 6px;
+    background-color: #fffaf6;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 10px;
+}
+
+
+.elementor-kit-19 section#comments input:not([type="button"]):not([type="submit"]):focus,
+.elementor-kit-19 section#comments textarea:focus,
+.elementor-kit-19 section#comments .elementor-field-textual:focus {
+    outline: solid 1px #FF8125;
+    border: solid 1px #FF8125;
+}
+
+.elementor-kit-19 section#comments label:not([for="wp-comment-cookies-consent"]) {
+    /* color: #FF8125; */
+    padding-bottom: 10px;
+}
+
+.elementor-kit-19 section#comments button,
+.elementor-kit-19 section#comments input[type="button"],
+.elementor-kit-19 section#comments input[type="submit"],
+.elementor-kit-19 section#comments .elementor-button {
+    background-color: #fffaf6;
+    color: #FF8125;
+    border-color: #FF8125;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-shadow: none !important;
+}
+
+.elementor-kit-19 section#comments button:hover,
+.elementor-kit-19 section#comments input[type="button"]:hover,
+.elementor-kit-19 section#comments input[type="submit"]:hover,
+.elementor-kit-19 section#comments .elementor-button:hover {
+    color: #fffaf6;
+    background-color: #FF8125;
+    border-color: #FF8125;
+    border-style: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-shadow: none;
+}
+
+.elementor-kit-19 section#comments .comment-form-url {
+    display: none;
+}
+
+
+#posts-comment-form-cookies-consent {
+    display: flex;
+}
+
+#posts-comment-form-cookies-consent label{
+    padding: 10px;
+}

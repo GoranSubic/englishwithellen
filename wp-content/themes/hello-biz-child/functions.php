@@ -49,3 +49,16 @@ function hello_biz_child_enqueue_scripts()
 add_action(
     'wp_enqueue_scripts', 'hello_biz_child_enqueue_scripts'
 );
+
+// Posts comments form
+// Add custom comment field - checkbox for saving name and email without "website" word
+add_filter( 'comment_form_default_fields', 'tu_filter_comment_fields', 20 );
+function tu_filter_comment_fields( $fields ) {
+    $commenter = wp_get_current_commenter();
+
+    $consent   = empty( $commenter['comment_author_email'] ) ? '' : ' checked="checked"';
+
+    $fields['cookies'] = '<p id="posts-comment-form-cookies-consent" class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes"' . $consent . ' />' . ' <label for="wp-comment-cookies-consent">Save my name and email in this browser for the next time I comment.</label></p>';
+
+    return $fields;
+}
