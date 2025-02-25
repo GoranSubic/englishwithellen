@@ -54,6 +54,7 @@
 
 /* Comments */
 section#comments {
+    font-family: "Montserrat", sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -69,8 +70,31 @@ section#comments {
     }
 }
 
+section#comments ol.comment-list {
+    min-width: 30%;
+}
+
+@media screen and (max-width: 1600px) {
+    section#comments ol.comment-list {
+        min-width: 40%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    section#comments ol.comment-list {
+        min-width: 50%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    section#comments ol.comment-list {
+        min-width: 60%;
+    }
+}
+
 section#comments a {
     color: #FF8125;
+    font-size: 14px;
 }
 
 section#comments a:hover {
@@ -82,10 +106,10 @@ section#comments #reply-title {
     flex-direction: column;
 }
 
-section#comments #cancel-comment-reply-link {
+section#comments #cancel-comment-reply-link,
+section#comments .comment-metadata {
     /* color: #FF8125; */
     padding-left: 10px;
-    font-size: 1rem;
 }
 
 @media only screen and (max-width: 800px) {
@@ -147,11 +171,10 @@ section#comments #cancel-comment-reply-link {
     display: none;
 }
 
-
 #posts-comment-form-cookies-consent {
     display: flex;
 }
 
-#posts-comment-form-cookies-consent label{
+#posts-comment-form-cookies-consent label {
     padding: 10px;
 }
