@@ -27,7 +27,7 @@ function hello_biz_child_enqueue_styles() {
     // Enqueue Child Theme CSS.
     wp_enqueue_style(
         'hello-biz-child-style',
-        get_stylesheet_directory_uri() . '/style/style.css',
+        get_stylesheet_directory_uri() . '/style.css',
         array('hello-biz-style'),
         wp_get_theme()->get('Version')
     );
